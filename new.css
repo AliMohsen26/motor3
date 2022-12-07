@@ -1,0 +1,79 @@
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.news .content {
+    margin-top: 30px;
+}
+
+.card {
+    background-color: #fff;
+    min-height: 14em;
+    width:20em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition:0.7s;
+    box-shadow: 0 5px 25px black;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+.card:hover .news-img {
+    opacity: 0.9;
+}
+
+.buy-img {
+    width: 250px;
+    border-radius: 0%;
+}
+.details {
+    padding: 1em;
+}
+
+
+
+.info
+ {
+display: flex;
+justify-content: space-between;
+text-transform: uppercase;
+font-weight: 800;
+margin-top: 10px;
+}
+
+.more-details {
+color: red;
+text-decoration: none;
+}
+
+.more-details:hover {
+color: darkred;
+}
+
+button {
+    border: 1px;
+    background-color: #3a6cf4;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 0 0 0 80px;
+    transition: all 0.3s;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
